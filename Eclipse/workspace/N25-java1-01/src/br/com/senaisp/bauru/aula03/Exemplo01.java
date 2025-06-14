@@ -23,7 +23,7 @@ public class Exemplo01 {
 		int vl2 = ++vl + 5;     
 		System.out.println(vl + " " + vl2);
 		vl = 10;
-		vl2 = ++lv + 5;
+		vl2 = ++vl + 5;
 		System.out.println(vl + " " + vl2);                //se for ++ depois do vl (pos-incremento) ele 
 		                                     //  so ira incrementar +1 no final de todas as contas,
 		                                     //  se for ++ antes do vl (pre-incremento) ele prioriza incrementar antes
