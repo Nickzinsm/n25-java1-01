@@ -1,0 +1,5 @@
+nome;idade;salario;cargo
+Richard brosler;45;15000.00;analista
+Maria das Dores;38;4600.00;analistaJR
+Joaquim da Silva;55;1800.00;operador
+
