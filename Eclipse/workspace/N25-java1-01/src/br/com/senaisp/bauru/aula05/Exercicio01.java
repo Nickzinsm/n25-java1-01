@@ -1,5 +1,6 @@
 package br.com.senaisp.bauru.aula05;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio01 {
@@ -19,8 +20,14 @@ public class Exercicio01 {
 		sca.close(); //fechado o scanner de apoio
 		while(sc.hasNextLine()) {
 		linha = sc.nextLine();
-		sca = new Scanner(linha);
-		sca.useDelimiter(";");
+		sca = new Scanner(linha).useLocale(Locale.US);
+		sca.useDelimiter(";");//Delimitador
+		//Imprimido o nome
+		System.out.print(sca.next()+"\t");//idade
+		//Imprimindo o salario
+		System.out.print(sca.nextDouble());//salario
+		//Fechando o scanner de apoio
+		sca.close();
 			
 		}
 		
